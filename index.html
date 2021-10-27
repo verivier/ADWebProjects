@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Victor's To do App</title>
     <link 
         href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"
     />
@@ -12,7 +12,7 @@
 <body class="bg-gray-300 min-h-screen container mx-auto">
     <div class="min-h-screen container flex flex-col items-center justify-center">
     <div lclass="title">
-        <h1 class="text-6xl font-light">To Do App</h1>
+        <h1 class="text-6xl font-light">My Tasks</h1>
     </div>
     <div class="form bg-red-500 w-full my-8">
         <form id="addForm" class="flex">
@@ -20,10 +20,10 @@
             id="newTodo"
             type="text" 
             class ="flex-grow px-4 rounded-l-lg" 
-            placeholder="New Todo" 
+            placeholder="New Task" 
             />
          <button 
-            class="bg-green-500 text-white py-2 px-4 rounded-r hover:bg-green-700"
+            class="bg-orange-500 text-white py-2 px-4 rounded-r hover:bg-orange-700"
             >
             Add
          </button>
@@ -31,7 +31,7 @@
     </div>
     <div id="todos" class="w-2/3 space-y-8 my-4">   
         <div>
-            <h3 class="text 2xl text-green-800">Pending Items</h3>
+            <h3 class="text 2xl text-green-800">Pending Tasks</h3>
             <ul id="pendingList" class="space-y-4">
                 
             </ul>
@@ -40,7 +40,7 @@
    
     
     <div>
-        <h3 class="text 2xl text-red-800">Completed Items</h3>
+        <h3 class="text 2xl text-red-800">Completed Tasks</h3>
     <ul id="completedList" class="space-y-4">
         
     </ul>
